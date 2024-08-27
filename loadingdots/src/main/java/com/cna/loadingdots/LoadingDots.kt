@@ -27,6 +27,12 @@ class LoadingDots: View {
         init(attrs)
     }
 
+    /**
+     * Initializes the view by configuring the paint object, applying custom XML attributes,
+     * and preparing the animation objects (ValueAnimators) for each circle.
+     *
+     * @param attrs The AttributeSet passed in from XML, which may contain custom attributes.
+     */
     private fun init(attrs: AttributeSet?) {
         circlePaint.isAntiAlias = true
         circlePaint.color = Color.WHITE
@@ -50,6 +56,15 @@ class LoadingDots: View {
         }
     }
 
+
+    /**
+     * Initializes the LoadingDots custom view by reading custom XML attributes.
+     * Retrieves the **number of circles**, **animation duration**, and **circle color**
+     * from the provided AttributeSet, and applies these values to the view.
+     * **If any attribute is not specified, it uses the existing default values.**
+     *
+     * @param attrs The **AttributeSet** containing the custom XML attributes for the view.
+     */
     private fun createValueAnimator(index: Int): ValueAnimator {
         val animator = ValueAnimator.ofFloat(circleRadius, targetRadius, circleRadius)
         animator.duration = animationDuration
