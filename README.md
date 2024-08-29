@@ -71,12 +71,3 @@ If you need to display a loading indicator in your app, for example during netwo
 
 ## License
 This library is licensed under the Apache 2.0 License.
-
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
-       TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-       ...
-
