@@ -76,5 +76,7 @@ This library is licensed under the Apache 2.0 License.
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
-            TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+       TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+       ...
 
